@@ -175,7 +175,8 @@ function Swipe(container, options) {
     style.webkitTransform = 'translate(' + dist + 'px,0)' + 'translateZ(0)';
     style.msTransform = 
     style.MozTransform = 
-    style.OTransform = 'translateX(' + dist + 'px)';
+    style.OTransform = 
+    style.transform = 'translateX(' + dist + 'px)';
 
   }
 
